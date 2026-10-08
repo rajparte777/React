@@ -122,9 +122,11 @@ const App = () => {
 
   <div className="parent">
         {/* <Card /> */}
-     {jobOpenings.map((elem)=>{
-       return <Card  company={elem.companyName} post={elem.post} tag1={elem.tag1} tag2={elem.tag2}
+     {jobOpenings.map((elem,idx)=>{
+       return <div key={idx}>
+             <Card  company={elem.companyName} post={elem.post} tag1={elem.tag1} tag2={elem.tag2}
              pay={elem.pay} location={elem.location} brandLogo={elem.brandLogo}/>
+       </div>
      })}
 
   </div>
