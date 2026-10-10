@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import SectionA from './components/section1/SectionA1';
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <SectionA />;
+};
 
-export default App
+export default App;
