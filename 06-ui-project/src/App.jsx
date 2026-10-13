@@ -7,7 +7,7 @@ const App = () => {
   return (
   <>
   <Upper/>
-  <div className="w-full h-[80vh] mx-5 px-3 mt-2 flex gap-3">
+  <div className="w-full h-[80vh] mx-3 px-3 mt-2 flex gap-3 overflow-hidden">
 <Right/>
 <Left />
   </div>
