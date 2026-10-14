@@ -1,0 +1,34 @@
+
+body{
+  background-color: rgb(255, 235, 252);
+}
+h1{
+  background-color: rgb(167, 238, 183);
+  width: fit-content;
+  padding: 50px 70px;
+  font-size: 64px;
+
+  
+  
+
+}
+button{
+  background-color: rgb(255, 115, 115);
+  padding: 10px 20px;
+  border-radius: 10px ;
+  margin-right: 50px;
+border: 1px solid black;
+
+}
+#h1{
+  display: flex;
+justify-content: center;
+margin-top: 150px;
+margin-bottom: 30px;
+
+}
+#btn{
+  display: flex;
+justify-content: center;
+
+}
