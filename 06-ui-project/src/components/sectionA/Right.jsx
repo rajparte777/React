@@ -2,7 +2,7 @@ import React from 'react'
 
 const Right = () => {
   return (
-    <div className="right w-[25%] bg-blue-300 h-full flex flex-col justify-center">
+    <div className="right bg-blue-200  w-[30%] h-full flex flex-col justify-center">
   <h1 className="text-5xl font-bold px-5">
         Prospective customer segmentation
       </h1>
