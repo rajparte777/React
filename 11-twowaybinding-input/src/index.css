@@ -1,0 +1,9 @@
+body{
+  background-color: cadetblue;
+}
+
+input,button{
+  padding: 12px 24px ;
+  font-size: xx-large;
+  margin: 30px;
+}
