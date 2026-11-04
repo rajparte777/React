@@ -7,11 +7,13 @@ import Aboutus from './pages/Aboutus'
 import Products from './pages/Products'
 import Mens from './pages/Mens'
 import Womens from './pages/Womens'
+import Nav from './components/Nav'
 
 const App = () => {
   return (
     <div className='bg-gray-900 h-screen'>
       <Navbar />
+      <Nav />
          <Routes>
            <Route path='/' element={<Home />} />
            <Route path='/aboutus' element={<Aboutus />} />
